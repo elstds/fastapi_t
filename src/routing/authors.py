@@ -1,5 +1,4 @@
-from from fastapi import APIRouter, Depends
-from typing import Union
+from fastapi import APIRouter
 from datetime import date
 
 router = APIRouter(prefix='/authors', tags=['authors'])
