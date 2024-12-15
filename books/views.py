@@ -17,3 +17,7 @@ def new_book(id: int):
 @router.put('/{id}')
 def update_book(id: int):
     return {f'book {id} was updated': 'success'}
+
+@router.delete('{id}')
+def delete_book():
+    pass
